@@ -1,0 +1,116 @@
+/*
+1.font-weight -----------------------------------------DONE
+2. font-family
+3. font-size  -----------------------------------------DONE 
+4. font-style
+5. font-decoration
+6. background-color -----------------------------------------DONE
+7. background-image
+8. border-style -----------------------------------------DONE
+9. border-color -----------------------------------------DONE
+10. width -----------------------------------------DONE
+11. height -----------------------------------------DONE
+12. text-decoration -----------------------------------------DONE
+13. text-align -----------------------------------------DONE
+14. text-transform
+15. first-letter (capitalize the first letter on each page)
+16. a:hover (to change the color of a link when the mouse hovers over it) -----------------------------------------DONE
+*/
+
+
+
+/*Index Page*/
+    /* Style the header */
+    .home-header {
+        padding: 20px;
+        text-align: center;
+      }
+      /* Create two columns/boxes that floats next to each other */
+      .index-pic {
+        float: left;
+        width: 43.5%;
+        padding: 15px;
+      }
+      .index-article {
+        float: left;
+        padding: 10px;
+        margin: 55px;
+        width: 46%;
+        font-size: 40px;
+      }
+ 
+/*Resume Page*/
+    .head{
+      margin-left:5px;
+      font-weight: bold;
+      font-size: 35px;
+    }
+    .head2{
+      margin-left:8px;
+      font-weight: bold;
+      font-size: 25px;
+    }
+    .stuff {
+      display: inline-block;
+      margin-left: 1px;
+      width: 100%;
+    }
+        
+    .stuff li{
+      font-size:20px;
+      margin-left: 5px;
+      font-family: 'Cormorant Garamond';
+    }
+    .myname,.bookmark {
+      display: inline-block; 
+    }
+    .bookmark {
+      margin-left:20%;
+    }
+    .stuff hr {
+      border-color: #7DB46CFF;
+    }
+ 
+/*Lists Page */
+    .lists table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      background-color: white;
+    }
+    .lists th, td {
+      padding: 5px;
+    }
+    .lists caption {
+      font-size: 30px;
+    }
+    .lists hr {
+      border-color: #7DB46CFF;
+    }
+    .lists th{
+      font-size:30px;
+    }
+    .lists li{
+      font-size: 20px;
+    }
+ 
+/*Contact Page*/
+    /* Create two columns/boxes that floats next to each other */
+    .google-pic {
+      float: left;
+      width:49%;
+      padding: 15px;
+      background: #E7EBE0FF;
+    }
+    
+    .contact{
+      float: right;
+      padding: 15px;
+      margin: 15px;
+      width: 20%;
+      background-color: #E7EBE0FF;
+      font-size: 20px;
+    }
+    .contact h2{
+      text-decoration: underline;
+    }
+  
